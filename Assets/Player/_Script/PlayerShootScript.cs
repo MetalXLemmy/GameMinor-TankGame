@@ -20,6 +20,7 @@ public class PlayerShootScript : MonoBehaviour {
 		RaycastHit hit;
 		if (Physics.Raycast(TurretRay, out hit) && Input.GetButton(FIREBUTTON) && hit.transform.tag != INDESTRUCTABLE){
 			Debug.DrawRay(TurretRay.origin, TurretRay.direction, Color.white);
+			Debug.Log(hit.transform.gameObject.name);
 			Destroy(hit.transform.gameObject);
 		}
 	}

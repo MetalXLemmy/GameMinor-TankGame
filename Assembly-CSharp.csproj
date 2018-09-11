@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2A7F44E1-2D35-3E7D-718B-A7D06C973268}</ProjectGuid>
+    <ProjectGuid>{B6AA47C1-7725-34C0-E006-C295FE57DF4F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,16 +59,16 @@
      <Compile Include="Assets\Player\_Script\PlayerShootScript.cs" />
      <Compile Include="Assets\Player\_Script\RotateBarrelScript.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>D:/user/unity/School.exe/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>D:/user/unity/git/GameMinor-TankGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/user/unity/School.exe/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/user/unity/git/GameMinor-TankGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/user/unity/School.exe/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>D:/user/unity/git/GameMinor-TankGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/user/unity/School.exe/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/user/unity/git/GameMinor-TankGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/programfiles/unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
