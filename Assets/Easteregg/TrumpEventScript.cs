@@ -20,7 +20,7 @@ public class TrumpEventScript : MonoBehaviour {
 	}
 
 	void OnEnable() {
-		GetComponent<Renderer>().enabled = !GetComponent<Renderer>().enabled;
+		GetComponent<Renderer>().enabled = false;
 		EasterEggTriggerScript.PlayerInTrigger += StartEvent;
 	}
 
@@ -33,15 +33,14 @@ public class TrumpEventScript : MonoBehaviour {
 	}
 
 	IEnumerator TrumpEvent(){
-		GetComponent<Renderer>().enabled = !GetComponent<Renderer>().enabled;
-
+		GetComponent<Renderer>().enabled = true;
 		MyAudioSource.Play();
 
 		while (transform.position.y <= -1.46f) {
 			yield return new WaitForEndOfFrame();
 			transform.Translate(Vector3.up * Time.deltaTime / 1.2f);
 		}
-		
+
 		MyAudioSource.Stop();
 		MyAudioSource.clip = MusicClip;
 		MyAudioSource.Play();
